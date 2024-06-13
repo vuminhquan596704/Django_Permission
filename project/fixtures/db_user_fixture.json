@@ -1,0 +1,50 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "username": "admin",
+      "password": "pbkdf2_sha256$260000$KfZ2hspAeA8KhAAJ8mKpjw$60ajS7y4Fw72yg+DzZQADfUsUs4l3MJuhABupfjQ3z0=",
+      "email": "a@a.com",
+      "is_superuser": true,
+      "is_staff": true,
+      "is_active": true
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "username": "Staff1",
+      "password": "pbkdf2_sha256$260000$KfZ2hspAeA8KhAAJ8mKpjw$60ajS7y4Fw72yg+DzZQADfUsUs4l3MJuhABupfjQ3z0=",
+      "email": "b@b.com",
+      "is_staff": true,
+      "is_active": true
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "username": "Guest1",
+      "password": "pbkdf2_sha256$260000$KfZ2hspAeA8KhAAJ8mKpjw$60ajS7y4Fw72yg+DzZQADfUsUs4l3MJuhABupfjQ3z0=",
+      "email": "b@b.com",
+      "is_staff": true,
+      "is_active": true
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "username": "Guest2",
+      "password": "pbkdf2_sha256$260000$KfZ2hspAeA8KhAAJ8mKpjw$60ajS7y4Fw72yg+DzZQADfUsUs4l3MJuhABupfjQ3z0=",
+      "email": "d@d.com",
+      "is_staff": true,
+      "is_active": true
+    }
+  }
+
+
+  
+]
